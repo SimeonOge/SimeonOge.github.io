@@ -1,0 +1,452 @@
+
+
+body{
+    margin-top: 40px;
+    padding: 0;
+    position: relative;
+    
+
+}
+
+
+
+
+.h4, .text-uppercase{
+   position: relative;
+    top: 50px;
+    left: 5px;
+    animation-name: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+   
+  
+}
+@keyframes heading {
+    0%   {top: -100px; }
+    100% {top: 40px;}
+  }
+  .abt{
+   position: relative;
+   display: flex;
+   
+   padding: 15px 30px;
+   color: wheat;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-size: 24px;
+   overflow: hidden;
+   transition: 0.2s;
+   margin: 0;
+   margin: auto;
+   top: 300px;
+   right: 400px;
+   border: 2px solid wheat;
+   border-radius: 15px;
+   
+   }
+  
+
+   .abt:hover{
+     text-decoration: none;
+     color:#f4f7fa;
+     background: wheat;
+     box-shadow: 0 0 10px wheat, 0 0 40px wheat, 0 0 80px wheat;
+     transition-delay: 1s;
+   }
+
+   .abt span{
+     position: absolute;
+     display: block;
+     
+    
+   }
+  
+   .abt span:nth-child(1) {
+     top: 0;
+     left: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(90deg, transparent, #eef0f1);
+   }
+   .abt:hover span:nth-child(1) {
+     left: 100%;
+     transition: 1s;
+    
+   }
+
+   .abt span:nth-child(3) {
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #d8dbdd);
+  }
+  .abt:hover span:nth-child(3) {
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+   
+  }
+
+  .abt span:nth-child(2) {
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #bcbdbe);
+  }
+  .abt:hover span:nth-child(2) {
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+   
+  }
+
+  .abt span:nth-child(4) {
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #e0e3e6);
+  }
+  .abt:hover span:nth-child(4) {
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+   
+  }
+
+  .text-shadow{
+    position: relative;
+     top: 50px;
+     left: 5px;
+     animation-name: text;
+     animation-duration: 3s;
+     animation-fill-mode: forwards;
+  }
+
+  @keyframes text {
+    0%   {left: -1000px; }
+    100% {left: 0;}
+  }
+  
+  .section-title{
+      text-transform: uppercase;
+      padding: 20px;
+  }
+  #about{
+    
+    padding-top: 15px;
+    height: 700px;
+    background: white;
+    justify-items: center;
+    row-gap: 2rem;
+    text-align: center;
+    background:linear-gradient(to right bottom, rgba(58, 57, 57, 0.5),
+    rgba(247, 243, 243, 0.5));
+    overflow-x: hidden;
+}
+
+.about_container{
+  position: relative;
+  justify-items: center;
+  row-gap: 2rem;
+  text-align: center;
+}
+.about_image{
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+  width: 120px;
+  height: 120px;
+  background-color: #ffff;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0;
+  margin: auto;
+  
+}
+.about_image img{
+  width: 150px;
+  height: 150px;
+}
+#about h1{
+  text-align: center;
+  color: white;
+
+}
+#about h2{
+  color: white;
+}
+
+.about_sub{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    padding-top: 20px;
+    color:white;
+}
+.center{
+    text-align: center;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-weight: bold;
+}
+.list li{
+  display: inline-block;
+  padding: 10px;
+  font-weight: bolder;
+  color: white;
+}
+#portfolio{
+  padding-top: 10px;
+}
+.section-title{
+  padding-bottom: 3px;
+}
+
+
+#portfolio  .project-name{
+  text-align: center;
+  color:blue;
+  font-family: cursive;
+  text-decoration: none;
+}
+#portfolio .project-category{
+  text-transform:uppercase ;
+  text-align: center;
+  font-weight: bold;
+  
+ 
+}
+#portfolio a{
+  text-decoration: none;
+}
+#services{
+  height: 750px;
+  padding-top: 10px;
+  background:linear-gradient(to right bottom, rgba(241, 150, 150, 0.5),
+    rgba(150, 146, 146, 0.5));
+}
+#services h2{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.text-center{
+  padding: 20px;
+  margin-top: 20px;
+}
+.text-center h4{
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+}
+.text-center p{
+  font-style: oblique;
+  line-height: 30px;
+}
+.col-md-4{
+  
+  border: 1px ;
+  margin-left: 0;
+
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+.col-md-4:hover{
+  background-color:wheat;
+  transition: ease-in-out 2s;
+  color: white;
+ 
+}
+.text-muted:hover{
+  color: white;
+}
+#contact{
+  column-gap: 2rem;
+  
+}
+#contact h1{
+  color: wheat;
+}
+.contact-details{
+  border: 10px solid transparent;
+  padding: 15px;
+  padding-left: 10px;
+  color: wheat;
+  
+
+}
+.contact-details h3 span{
+  padding-left: 10px;
+}
+.contact-details:hover{
+  background:  linear-gradient(to right bottom, rgba(104, 101, 101, 0.7), rgba(191, 233, 226, 0.4));
+  border-radius: 20px;
+  width: 100%;
+  
+  
+}
+.contact_text{
+  display: inline-block;
+  margin-bottom: 40px;
+  color: wheat;
+}
+.contact_input{
+  width: 100%;
+  padding: .8rem;
+  outline: none;
+  border: 1.5 solid darkolivegreen;
+  font-size: normal;
+  margin-bottom: 40px;
+  border-radius: .5rem;
+  background: transparent;
+}
+.contact_button{
+  display: block;
+  background-color: darkslategrey;
+  color: white;
+  padding: .60rem 4rem;
+  margin-left: auto;
+  margin-bottom: 5px;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  font-size: normal;
+  cursor: pointer;
+}
+footer{
+  background: linear-gradient(to right bottom, rgba(104, 101, 101, 0.7), rgba(191, 233, 226, 0.4));
+}
+footer h2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  font-style: oblique;
+  padding: 40px;
+}
+footer p{
+  color:white;
+  padding-top: 20px;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 768px){
+   .about_image{
+     margin: 0;
+     margin-left: 30px;
+     width: 250px;
+  height: 250px;
+   }
+   .about_image img{
+    width: 260px;
+    height: 260px;
+  }
+  .align{
+    margin-top: 0px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .abt{
+    position: relative;
+    display: flex;
+    
+    padding: 15px 10px;
+    color: wheat;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    margin: 0;
+    margin: auto;
+    top: 200px;
+    left: 15px;
+    border: 2px solid wheat;
+    border-radius: 15px;
+    
+    }
+   
+ 
+    .abt:hover{
+      text-decoration: none;
+      color:white;
+      background: wheat;
+      box-shadow: 0 0 10px wheat, 0 0 40px wheat, 0 0 80px wheat;
+      transition-delay: 1s;
+    }
+ 
+    .abt span{
+      position: absolute;
+      display: block;
+      
+     
+    }
+   
+    .abt span:nth-child(1) {
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, white;
+    }
+    .abt:hover span:nth-child(1) {
+      left: 100%;
+      transition: 1s;
+     
+    }
+ 
+    .abt span:nth-child(3) {
+     bottom: 0;
+     right: -100%;
+     width: 100%;
+     height: 2px;
+     background: linear-gradient(270deg, transparent, #b8babb);
+   }
+   .abt:hover span:nth-child(3) {
+     right: 100%;
+     transition: 1s;
+     transition-delay: 0.5s;
+    
+   }
+ 
+   .abt span:nth-child(2) {
+     top: -100%;
+     right: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(180deg, transparent, white);
+   }
+   .abt:hover span:nth-child(2) {
+     top: 100%;
+     transition: 1s;
+     transition-delay: 0.25s;
+    
+   }
+ 
+   .abt span:nth-child(4) {
+     bottom: -100%;
+     left: 0;
+     width: 2px;
+     height: 100%;
+     background: linear-gradient(360deg, transparent, white);
+   }
+   .abt:hover span:nth-child(4) {
+     bottom: 100%;
+     transition: 1s;
+     transition-delay: 0.25s;
+    
+   }
+ 
+}
+ 
