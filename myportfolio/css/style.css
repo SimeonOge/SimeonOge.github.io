@@ -223,7 +223,7 @@ body{
   text-decoration: none;
 }
 #services{
-  height: 750px;
+  height: 800px;
   padding-top: 10px;
   background:linear-gradient(to right bottom, rgba(241, 150, 150, 0.5),
     rgba(150, 146, 146, 0.5));
