@@ -15,13 +15,13 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,800&amp;display=swap">
         
 
-        <title>SIMEON OGE PORTFOLIO</title>
+        <title>SIMEONOGEPORTFOLIO</title>
     </head>
     <body data-spy="scroll" data-target="navbar">
       <nav id="navbar" class="navbar navbar-expand-md fixed-top navbar-light bg-light mb-3">
           <div class="container">
               <a href="#" class="navbar-brand mr-3"><img src="images/8.png"></a>
-              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -83,7 +83,7 @@
                 
               </div>
 
-              <div>
+              <div class="sk">
                 <h2>SKILLS</h2>
                 <ul class="list">
                      <li>HTML</li>
@@ -95,9 +95,7 @@
                </div>
            </div>
          </div>
-
-            
-        </div>
+         </div>
             
                
            
@@ -108,7 +106,7 @@
 
   <div class="container-fluid p-0">
       <div class="row no-gutters">
-          <div class="col-lg-4 col-sm-6 port" >
+          <div class="col-lg-4 col-sm-12 port" >
               <a class="portfolio-box" href="images/1.jpg">
                   <img class="img-fluid" src="images/1.jpg" alt="" />
                   <div class="portfolio-box-caption">
@@ -117,7 +115,7 @@
                   </div>
               </a>
           </div>
-          <div class="col-lg-4 col-sm-6 port">
+          <div class="col-lg-4 col-sm-12 port">
               <a class="portfolio-box" href="images/4.jpg">
                   <img class="img-fluid" src="images/4.jpg" alt="" />
                   <div class="portfolio-box-caption">
@@ -126,7 +124,7 @@
                   </div>
               </a>
           </div>
-          <div class="col-lg-4 col-sm-6 port">
+          <div class="col-lg-4 col-sm-12port">
               <a class="portfolio-box" href="images/2.jpg">
                   <img class="img-fluid" src="images/2.jpg" alt="" />
                   <div class="portfolio-box-caption">
@@ -135,7 +133,7 @@
                   </div>
               </a>
           </div>
-          <div class="col-lg-4 col-sm-6 port">
+          <div class="col-lg-4 col-sm-12 port">
               <a class="portfolio-box" href="images/3.jpg">
                   <img class="img-fluid" src="images/3.jpg" alt="" />
                   <div class="portfolio-box-caption">
@@ -144,7 +142,7 @@
                   </div>
               </a>
           </div>
-          <div class="col-lg-4 col-sm-6 port">
+          <div class="col-lg-4 col-sm-12 port">
               <a class="portfolio-box" href="images/6.jpg">
                   <img class="img-fluid" src="images/6.jpg" alt="" />
                   <div class="portfolio-box-caption">
@@ -153,7 +151,7 @@
                   </div>
               </a>
           </div>
-          <div class="col-lg-4 col-sm-6 port">
+          <div class="col-lg-4 col-sm-12 port">
               <a class="portfolio-box" href="images/5.jpg">
                   <img class="img-fluid" src="images/5.jpg" alt="" />
                   <div class="portfolio-box-caption p-3">
@@ -174,18 +172,18 @@
           
       </div>
       <div class="row text-center">
-          <div class="col-md-4">
+          <div class="col-md-4 first">
              
               <h4 class="my-3">UI/UX DESIGN</h4>
               <p class="text-muted"> I plan and iterate a site's structure and layout once the proper information and architecture is in place<br>
               ,to create a beautiful user experience</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 second">
              
               <h4 class="my-3">Responsive Design</h4>
               <p class="text-muted"> Website responsiveness is the ability of a website to adapt to different devices, I design websites that target all mannner of devices for optimuim user satisfaction.</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 third">
              
               <h4 class="my-3">Front End Development</h4>
               <p class="text-muted">Front End Development is building the visual components of a website. I use HTML, CSS, and Javascript to build fast interactive websites .</p>
@@ -259,39 +257,13 @@
 
 
 
-        <script src="https://unpkg.com/scrollreveal"></script>
+       
         <script src="js/jquery-3.5.1 (2).js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/anime.min.js"></script>
         <script src="js/index.js"></script>
         <script>
             $('body').scrollspy({target: "#navbar"});
-
-          
-            $('a[href*="#"]:not([href="#"])').click(function () {
-        if (
-            location.pathname.replace(/^\//, "") ==
-                this.pathname.replace(/^\//, "") &&
-            location.hostname == this.hostname
-        ) {
-            var target = $(this.hash);
-            target = target.length
-                ? target
-                : $("[name=" + this.hash.slice(1) + "]");
-            if (target.length) {
-                $("html, body").animate(
-                    {
-                        scrollTop: target.offset().top 
-                    },
-                    1000,
-                    
-                );
-                return false;
-            }
-        }
-    });
-
-
             
         </script>
         

@@ -1,14 +1,17 @@
 
 
 body{
-    margin-top: 40px;
+    margin: 0;
     padding: 0;
     position: relative;
+    overflow-x: hidden;
     
 
 }
 
-
+#navbar{
+  width: 100vw;
+}
 
 
 .h4, .text-uppercase{
@@ -223,8 +226,7 @@ body{
   text-decoration: none;
 }
 #services{
-  height: 750px;
-  padding-top: 10px;
+  height: 800px;
   background:linear-gradient(to right bottom, rgba(241, 150, 150, 0.5),
     rgba(150, 146, 146, 0.5));
 }
@@ -265,6 +267,7 @@ body{
 }
 #contact{
   column-gap: 2rem;
+  margin-top: 0;
   
 }
 #contact h1{
@@ -357,6 +360,9 @@ footer p{
 }
 
 @media screen and (max-width: 768px) {
+  body{
+    max-width: 100vw;
+  }
   .abt{
     position: relative;
     display: flex;
@@ -398,7 +404,7 @@ footer p{
       left: -100%;
       width: 100%;
       height: 2px;
-      background: linear-gradient(90deg, transparent, white;
+      background: linear-gradient(90deg, transparent, white);
     }
     .abt:hover span:nth-child(1) {
       left: 100%;
