@@ -1,28 +1,55 @@
-const button = document.querySelector('.contact_button');
+$('a[href*="#"]:not([href="#"])').click(function () {
+    if (
+        location.pathname.replace(/^\//, "") ==
+            this.pathname.replace(/^\//, "") &&
+        location.hostname == this.hostname
+    ) {
+        var target = $(this.hash);
+        target = target.length
+            ? target
+            : $("[name=" + this.hash.slice(1) + "]");
+        if (target.length) {
+            $("html, body").animate(
+                {
+                    scrollTop: target.offset().top 
+                },
+                1000,
+                
+            );
+            return false;
+        }
+    }
+});
 
-const mouseHoverAnimation = () => {
-    anime({
-        targets: button,
-        width: '100%',
-        scale: {
-            delay: 800,
-            value: 1.5,
-        },
-        duration: 1500
-    })
-}
+window.sr = ScrollReveal();
 
-const mouseOutAnimation = () => {
-    anime({
-        targets: button,
-        width: '50%',
-        scale: {
-            delay: 800,
-            value: 1
-        },
-        duration: 1500
-    })
-}
-
-button.addEventListener('mouseover', mouseHoverAnimation)
-button.addEventListener('mouseout', mouseOutAnimation)
+sr.reveal('.align', {
+    duration: 3000,
+    origin:'right',
+    distance:'300px'
+});
+sr.reveal('.sk', {
+    duration: 3000,
+    origin:'left',
+    distance:'300px'
+});
+sr.reveal('.first', {
+    duration: 3000,
+    origin:'left',
+    distance:'300px'
+});
+sr.reveal('.second', {
+    duration: 3000,
+    origin:'bottom',
+    distance:'300px'
+});
+sr.reveal('.third', {
+    duration: 3000,
+    origin:'right',
+    distance:'300px'
+});
+sr.reveal('.mx-auto', {
+    duration: 3000,
+    origin:'left',
+    distance:'300px'
+});
