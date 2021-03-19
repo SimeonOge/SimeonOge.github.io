@@ -358,7 +358,7 @@ footer p{
 
 @media screen and (max-width: 768px) {
     #services{
-  height: 800px;
+  height: 810px;
   padding-top: 10px;
   background:linear-gradient(to right bottom, rgba(241, 150, 150, 0.5),
     rgba(150, 146, 146, 0.5));
