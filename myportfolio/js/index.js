@@ -49,7 +49,11 @@ sr.reveal('.third', {
     distance:'300px'
 });
 sr.reveal('.mx-auto', {
+
     duration: 3000,
+
+    duration: 3000,
+
     origin:'left',
     distance:'300px'
 });
